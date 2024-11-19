@@ -1,0 +1,615 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1454 ]
+[d frameptr 6 ]
+"12 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[e E2177 . `uc
+none 1
+complexBreaths 2
+calibrating 3
+inchUpAction 4
+inchDownAction 5
+topButtonTriggerAction 6
+bottomButtonTriggerAction 7
+stepperInstruction 8
+slowStepTestAction 9
+moveUntilZUp 10
+moveUntilZDown 11
+]
+"135 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[e E2212 . `uc
+none 1
+complexBreaths 2
+calibrating 3
+inchUpAction 4
+inchDownAction 5
+topButtonTriggerAction 6
+bottomButtonTriggerAction 7
+stepperInstruction 8
+slowStepTestAction 9
+moveUntilZUp 10
+moveUntilZDown 11
+]
+"141
+[e E2177 . `uc
+UP 0
+DOWN 1
+]
+"178
+[e E2181 . `uc
+Full 1
+Half 2
+Quarter 4
+Eighth 8
+Sixteenth 16
+NullStep 0
+]
+"4 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[e E2177 . `uc
+UP 0
+DOWN 1
+]
+[e E2181 . `uc
+Full 1
+Half 2
+Quarter 4
+Eighth 8
+Sixteenth 16
+NullStep 0
+]
+"16 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _initAvthorStates initAvthorStates `(v  1 e 1 0 ]
+"33
+[v _get_stepper_instruction get_stepper_instruction `(uc  1 e 1 0 ]
+"36
+[v _get_INTERRUPT_BREAK_FLAG get_INTERRUPT_BREAK_FLAG `(a  1 e 1 0 ]
+"39
+[v _get_motor_action get_motor_action `(E2177  1 e 1 0 ]
+"42
+[v _reset_motor_action reset_motor_action `(v  1 e 1 0 ]
+"45
+[v _reset_motor_action_if_matches reset_motor_action_if_matches `(v  1 e 1 0 ]
+"52
+[v _get_complex_breaths_instructions_index get_complex_breaths_instructions_index `(uc  1 e 1 0 ]
+"58
+[v _get_bellowsHasBeenInchedUpOrDownSinceVenting get_bellowsHasBeenInchedUpOrDownSinceVenting `(a  1 e 1 0 ]
+"65
+[v _set_INTERRUPT_BREAK_FLAG set_INTERRUPT_BREAK_FLAG `(v  1 e 1 0 ]
+"98
+[v _Avthor_Uart_Instruction Avthor_Uart_Instruction `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"63 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"85
+[v _main main `(v  1 e 1 0 ]
+"300
+[v _smallVent smallVent `(v  1 e 1 0 ]
+"316
+[v _basicStepperInstruction basicStepperInstruction `(v  1 e 1 0 ]
+"66 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"144
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"4 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _Step Step `(v  1 e 1 0 ]
+"110
+[v _slowStepTest slowStepTest `(v  1 e 1 0 ]
+"125
+[v _moveUntilZ moveUntilZ `(v  1 e 1 0 ]
+"144
+[v _calibrate calibrate `(v  1 e 1 0 ]
+"162
+[v _inchUp inchUp `(v  1 e 1 0 ]
+"166
+[v _inchDown inchDown `(v  1 e 1 0 ]
+"170
+[v _topButtonTrigger topButtonTrigger `(v  1 e 1 0 ]
+"180
+[v _bottomButtonTrigger bottomButtonTrigger `(v  1 e 1 0 ]
+"190
+[v _stepperSleep stepperSleep `(v  1 e 1 0 ]
+[v i1_stepperSleep stepperSleep `(v  1 e 1 0 ]
+"198
+[v _setStepSize setStepSize `(v  1 e 1 0 ]
+"237
+[v _setDirection setDirection `(v  1 e 1 0 ]
+"247
+[v _sendHapticCommand sendHapticCommand `(v  1 e 1 0 ]
+[s S34 . 11 `uc 1 stepper_instruction 1 0 `a 1 INTERRUPT_BREAK_FLAG 1 1 `E2177 1 motor_action 1 2 `[5]uc 1 complex_breaths_instructions 5 3 `*.4uc 1 complex_breaths_instruction_pointer 1 8 `a 1 IS_RECEIVING_COMPLEX_BREATHS_COMMANDS 1 9 `a 1 bellowsHasBeenInchedUpOrDownSinceVenting 1 10 ]
+"12 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _Avthor_States Avthor_States `VES34  1 s 11 Avthor_States ]
+[s S329 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"375 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h
+[s S338 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S343 . 1 `S329 1 . 1 0 `S338 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES343  1 e 1 @11 ]
+[s S158 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"542
+[u S167 . 1 `S158 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES167  1 e 1 @17 ]
+"937
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"964
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S361 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1031
+[u S370 . 1 `S361 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES370  1 e 1 @145 ]
+[s S288 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1129
+[s S295 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S302 . 1 `S288 1 . 1 0 `S295 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES302  1 e 1 @149 ]
+"1246
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1305
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1369
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1496
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S589 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1508
+[u S593 . 1 `S589 1 . 1 0 ]
+[v _LATAbits LATAbits `VES593  1 e 1 @268 ]
+"1523
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S571 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"1538
+[u S578 . 1 `S571 1 . 1 0 ]
+[v _LATCbits LATCbits `VES578  1 e 1 @270 ]
+"1573
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"1633
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"1679
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"1699
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"1949
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"1969
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"1996
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2016
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2036
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S200 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2053
+[u S209 . 1 `S200 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES209  1 e 1 @413 ]
+"2098
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S179 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2115
+[u S188 . 1 `S179 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES188  1 e 1 @414 ]
+"2160
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"2212
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3211
+[v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
+"5172
+[v _PLLRDY PLLRDY `VEb  1 e 0 @1238 ]
+"55 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _UART_RX_in UART_RX_in `VEuc  1 e 1 0 ]
+"56
+[v _breath_counter_for_smallVent breath_counter_for_smallVent `uc  1 e 1 0 ]
+[s S112 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[u S117 . 1 `S112 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES117  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"85 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"181
+[v main@steps_multiplier_2 steps_multiplier_2 `us  1 a 2 55 ]
+"180
+[v main@steps_multiplier_1 steps_multiplier_1 `us  1 a 2 53 ]
+"259
+[v main@numSteps2 numSteps2 `us  1 a 2 49 ]
+"258
+[v main@numSteps1 numSteps1 `us  1 a 2 47 ]
+"179
+[v main@step_size_in_2 step_size_in_2 `E2181  1 a 1 58 ]
+"178
+[v main@step_size_in_1 step_size_in_1 `E2181  1 a 1 57 ]
+"298
+} 0
+"170 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _topButtonTrigger topButtonTrigger `(v  1 e 1 0 ]
+{
+"173
+[v topButtonTrigger@rotations rotations `uc  1 a 1 32 ]
+"178
+} 0
+"300 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _smallVent smallVent `(v  1 e 1 0 ]
+{
+"314
+} 0
+"110 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _slowStepTest slowStepTest `(v  1 e 1 0 ]
+{
+"123
+} 0
+"45 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _reset_motor_action_if_matches reset_motor_action_if_matches `(v  1 e 1 0 ]
+{
+[v reset_motor_action_if_matches@action action `E2177  1 a 1 wreg ]
+[v reset_motor_action_if_matches@action action `E2177  1 a 1 wreg ]
+[v reset_motor_action_if_matches@action action `E2177  1 a 1 1 ]
+"51
+} 0
+"42
+[v _reset_motor_action reset_motor_action `(v  1 e 1 0 ]
+{
+"44
+} 0
+"125 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _moveUntilZ moveUntilZ `(v  1 e 1 0 ]
+{
+[v moveUntilZ@dir dir `uc  1 a 1 wreg ]
+[v moveUntilZ@dir dir `uc  1 a 1 wreg ]
+[v moveUntilZ@dir dir `uc  1 a 1 4 ]
+"142
+} 0
+"16 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _initAvthorStates initAvthorStates `(v  1 e 1 0 ]
+{
+"21
+[v initAvthorStates@i i `i  1 a 2 1 ]
+"27
+} 0
+"162 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _inchUp inchUp `(v  1 e 1 0 ]
+{
+"164
+} 0
+"166
+[v _inchDown inchDown `(v  1 e 1 0 ]
+{
+"168
+} 0
+"33 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _get_stepper_instruction get_stepper_instruction `(uc  1 e 1 0 ]
+{
+"35
+} 0
+"39
+[v _get_motor_action get_motor_action `(E2177  1 e 1 0 ]
+{
+"41
+} 0
+"52
+[v _get_complex_breaths_instructions_index get_complex_breaths_instructions_index `(uc  1 e 1 0 ]
+{
+[v get_complex_breaths_instructions_index@index index `uc  1 a 1 wreg ]
+[v get_complex_breaths_instructions_index@index index `uc  1 a 1 wreg ]
+[v get_complex_breaths_instructions_index@index index `uc  1 a 1 0 ]
+"54
+} 0
+"58
+[v _get_bellowsHasBeenInchedUpOrDownSinceVenting get_bellowsHasBeenInchedUpOrDownSinceVenting `(a  1 e 1 0 ]
+{
+"60
+} 0
+"144 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _calibrate calibrate `(v  1 e 1 0 ]
+{
+"160
+} 0
+"180
+[v _bottomButtonTrigger bottomButtonTrigger `(v  1 e 1 0 ]
+{
+"183
+[v bottomButtonTrigger@rotations rotations `uc  1 a 1 32 ]
+"188
+} 0
+"316 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _basicStepperInstruction basicStepperInstruction `(v  1 e 1 0 ]
+{
+[v basicStepperInstruction@charIn charIn `uc  1 a 1 wreg ]
+"318
+[v basicStepperInstruction@numRotations numRotations `uc  1 a 1 42 ]
+"322
+[v basicStepperInstruction@stepMultiplier2 stepMultiplier2 `uc  1 a 1 41 ]
+"321
+[v basicStepperInstruction@stepMultiplier1 stepMultiplier1 `uc  1 a 1 40 ]
+"320
+[v basicStepperInstruction@stepSize2 stepSize2 `E2181  1 a 1 39 ]
+"319
+[v basicStepperInstruction@stepSize1 stepSize1 `E2181  1 a 1 38 ]
+"316
+[v basicStepperInstruction@charIn charIn `uc  1 a 1 wreg ]
+[v basicStepperInstruction@charIn charIn `uc  1 a 1 33 ]
+"821
+} 0
+"65 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _set_INTERRUPT_BREAK_FLAG set_INTERRUPT_BREAK_FLAG `(v  1 e 1 0 ]
+{
+[v set_INTERRUPT_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v set_INTERRUPT_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v set_INTERRUPT_BREAK_FLAG@in in `a  1 a 1 1 ]
+"67
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 5 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 1 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 3 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 14 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 13 ]
+[v ___awdiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"41
+} 0
+"4 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v _Step Step `(v  1 e 1 0 ]
+{
+[v Step@dir dir `E2177  1 a 1 wreg ]
+"74
+[v Step@i_616 i `us  1 a 2 26 ]
+"45
+[v Step@i i `us  1 a 2 24 ]
+"4
+[v Step@dir dir `E2177  1 a 1 wreg ]
+[v Step@num_steps1 num_steps1 `us  1 p 2 16 ]
+[v Step@size1 size1 `E2181  1 p 1 18 ]
+[v Step@num_steps2 num_steps2 `us  1 p 2 19 ]
+[v Step@size2 size2 `E2181  1 p 1 21 ]
+[v Step@haptic_breaths haptic_breaths `a  1 p 1 22 ]
+"6
+[v Step@dir dir `E2177  1 a 1 28 ]
+"108
+} 0
+"198
+[v _setStepSize setStepSize `(v  1 e 1 0 ]
+{
+[v setStepSize@size size `E2181  1 a 1 wreg ]
+[v setStepSize@size size `E2181  1 a 1 wreg ]
+[v setStepSize@size size `E2181  1 a 1 3 ]
+"235
+} 0
+"190
+[v _stepperSleep stepperSleep `(v  1 e 1 0 ]
+{
+[v stepperSleep@in in `a  1 a 1 wreg ]
+[v stepperSleep@in in `a  1 a 1 wreg ]
+[v stepperSleep@in in `a  1 a 1 0 ]
+"196
+} 0
+"237
+[v _setDirection setDirection `(v  1 e 1 0 ]
+{
+[v setDirection@dir dir `E2177  1 a 1 wreg ]
+[v setDirection@dir dir `E2177  1 a 1 wreg ]
+[v setDirection@dir dir `E2177  1 a 1 0 ]
+"245
+} 0
+"247
+[v _sendHapticCommand sendHapticCommand `(v  1 e 1 0 ]
+{
+[v sendHapticCommand@input input `uc  1 a 1 wreg ]
+[v sendHapticCommand@input input `uc  1 a 1 wreg ]
+"253
+} 0
+"132 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"36 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _get_INTERRUPT_BREAK_FLAG get_INTERRUPT_BREAK_FLAG `(a  1 e 1 0 ]
+{
+"38
+} 0
+"50 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"55 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"59 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"66 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"163
+} 0
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"63 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"83
+} 0
+"99 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
+{
+"102
+} 0
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"98 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\AvthorStates/AvthorStates.c
+[v _Avthor_Uart_Instruction Avthor_Uart_Instruction `(v  1 e 1 0 ]
+{
+[v Avthor_Uart_Instruction@instr instr `uc  1 a 1 wreg ]
+[v Avthor_Uart_Instruction@instr instr `uc  1 a 1 wreg ]
+"101
+[v Avthor_Uart_Instruction@instr instr `uc  1 a 1 3 ]
+"232
+} 0
+"190 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\step/step.c
+[v i1_stepperSleep stepperSleep `(v  1 e 1 0 ]
+{
+[v i1stepperSleep@in in `a  1 a 1 wreg ]
+[v i1stepperSleep@in in `a  1 a 1 wreg ]
+[v i1stepperSleep@in in `a  1 a 1 0 ]
+"196
+} 0
+"132 C:\Users\micha\MPLABXProjects\Avthor-PIC16F\Avthor_PIC16F1454.X\mcc_generated_files/eusart.c
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0

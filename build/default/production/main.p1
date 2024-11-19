@@ -1,0 +1,2797 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"358 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 358:     struct {
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"368
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 368:     struct {
+[s S32 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S32 . . T0IF . T0IE ]
+"357
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 357: typedef union {
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"375
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 375: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"1020
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1020:     struct {
+[s S65 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S65 . TMR1IE TMR2IE . SSP1IE TXIE RCIE . TMR1GIE ]
+"1019
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1019: typedef union {
+[u S64 `S65 1 ]
+[n S64 . . ]
+"1031
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1031: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x091)));
+[v _PIE1bits `VS64 ~T0 @X0 0 e@145 ]
+"206 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 206: _Bool EUSART_is_rx_ready(void);
+[v _EUSART_is_rx_ready `(a ~T0 @X0 0 ef ]
+"321
+[; ;mcc_generated_files/eusart.h: 321: uint8_t EUSART_Read(void);
+[v _EUSART_Read `(uc ~T0 @X0 0 ef ]
+"531 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 531:     struct {
+[s S38 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S38 . TMR1IF TMR2IF . SSP1IF TXIF RCIF . TMR1GIF ]
+"530
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 530: typedef union {
+[u S37 `S38 1 ]
+[n S37 . . ]
+"542
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 542: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x011)));
+[v _PIR1bits `VS37 ~T0 @X0 0 e@17 ]
+"72 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 72: void Avthor_Uart_Instruction(uint8_t instr);
+[v _Avthor_Uart_Instruction `(v ~T0 @X0 0 ef1`uc ]
+[p mainexit ]
+"70 mcc_generated_files\mcc.h
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"58 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 58: void initAvthorStates(void);
+[v _initAvthorStates `(v ~T0 @X0 0 ef ]
+"68 ././step/step.h
+[; ;././step/step.h: 68: void stepperSleep(_Bool in);
+[v _stepperSleep `(v ~T0 @X0 0 ef1`a ]
+"70 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 70: void set_INTERRUPT_BREAK_FLAG(_Bool in);
+[v _set_INTERRUPT_BREAK_FLAG `(v ~T0 @X0 0 ef1`a ]
+"66 ././step/step.h
+[; ;././step/step.h: 66: void topButtonTrigger(void);
+[v _topButtonTrigger `(v ~T0 @X0 0 ef ]
+"63 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 63: void reset_motor_action(void);
+[v _reset_motor_action `(v ~T0 @X0 0 ef ]
+"341 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 341: void EUSART_Write(uint8_t txData);
+[v _EUSART_Write `(v ~T0 @X0 0 ef1`uc ]
+"67 ././step/step.h
+[; ;././step/step.h: 67: void bottomButtonTrigger(void);
+[v _bottomButtonTrigger `(v ~T0 @X0 0 ef ]
+"61
+[; ;././step/step.h: 61: void calibrate(void);
+[v _calibrate `(v ~T0 @X0 0 ef ]
+"135 main.c
+[; ;main.c: 135:                 reset_motor_action_if_matches(calibrating);
+[c E2212 1 2 3 4 5 6 7 8 9 10 11 .. ]
+[n E2212 . none complexBreaths calibrating inchUpAction inchDownAction topButtonTriggerAction bottomButtonTriggerAction stepperInstruction slowStepTestAction moveUntilZUp moveUntilZDown  ]
+"64 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 64: void reset_motor_action_if_matches(motorAction action);
+[v _reset_motor_action_if_matches `(v ~T0 @X0 0 ef1`E2212 ]
+"62 ././step/step.h
+[; ;././step/step.h: 62: void moveUntilZ(char dir);
+[v _moveUntilZ `(v ~T0 @X0 0 ef1`uc ]
+"141 main.c
+[; ;main.c: 141:                 moveUntilZ(UP);
+[c E2177 0 1 .. ]
+[n E2177 . UP DOWN  ]
+"63 ././step/step.h
+[; ;././step/step.h: 63: void slowStepTest(void);
+[v _slowStepTest `(v ~T0 @X0 0 ef ]
+"64
+[; ;././step/step.h: 64: void inchUp(void);
+[v _inchUp `(v ~T0 @X0 0 ef ]
+"65
+[; ;././step/step.h: 65: void inchDown(void);
+[v _inchDown `(v ~T0 @X0 0 ef ]
+"178 main.c
+[; ;main.c: 178:                 step_size step_size_in_1 = NullStep;
+[c E2181 1 2 4 8 16 0 .. ]
+[n E2181 . Full Half Quarter Eighth Sixteenth NullStep  ]
+"66 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 66: uint8_t get_complex_breaths_instructions_index(uint8_t index);
+[v _get_complex_breaths_instructions_index `(uc ~T0 @X0 0 ef1`uc ]
+"60 ././step/step.h
+[; ;././step/step.h: 60: void Step(direction dir, uint16_t numSteps1, step_size size1, uint16_t numSteps2, step_size size2, _Bool haptic_breaths);
+[v _Step `(v ~T0 @X0 0 ef6`E2177`us`E2181`us`E2181`a ]
+[v F192 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\builtins.h
+[v __delay `JF192 ~T0 @X0 0 e ]
+[p i __delay ]
+"68 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 68: _Bool get_bellowsHasBeenInchedUpOrDownSinceVenting(void);
+[v _get_bellowsHasBeenInchedUpOrDownSinceVenting `(a ~T0 @X0 0 ef ]
+"58 main.c
+[; ;main.c: 58: void smallVent(void);
+[v _smallVent `(v ~T0 @X0 0 ef ]
+"61 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 61: uint8_t get_stepper_instruction(void);
+[v _get_stepper_instruction `(uc ~T0 @X0 0 ef ]
+"60 main.c
+[; ;main.c: 60: void basicStepperInstruction(char charIn);
+[v _basicStepperInstruction `(v ~T0 @X0 0 ef1`uc ]
+"62 ././AvthorStates/AvthorStates.h
+[; ;././AvthorStates/AvthorStates.h: 62: motorAction get_motor_action(void);
+[v _get_motor_action `(E2212 ~T0 @X0 0 ef ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 55: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 75: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"95
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"178
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 178: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"198
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 198: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"222
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 222: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"242
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 242: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"262
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 262: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"314
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 314: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"334
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 334: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"354
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 354: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"432
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 432: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"477
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 477: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"527
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 527: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"579
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 579: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"619
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 619: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"639
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 639: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"646
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 646: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"666
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 666: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"686
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 686: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"758
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 758: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"828
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 828: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"848
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 848: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"868
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 868: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"939
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 939: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"966
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 966: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1016
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1016: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1068
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1068: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1108
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1108: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1191
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1191: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1248
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1248: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1307
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1307: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1371
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1371: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1447
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1447: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1498
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1498: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1525
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1525: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"1575
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1575: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"1608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1608: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"1635
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1635: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"1681
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1681: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"1701
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1701: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"1747
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1747: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"1754
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1754: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"1774
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1774: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"1794
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1794: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"1801
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1801: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"1821
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1821: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"1841
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1841: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"1897
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1897: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"1917
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1917: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"1951
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1951: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"1971
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1971: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"1991
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1991: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"1998
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 1998: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2018
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2018: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2038
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2038: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"2100
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2100: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"2162
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2162: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"2214
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2214: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"2255
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2255: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"2260
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2260: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"2293
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2293: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"2298
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2298: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"2331
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2331: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"2336
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2336: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"2369
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2369: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"2374
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2374: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"2491
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2491: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"2496
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2496: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"2500
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2500: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"2734
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2734: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"2739
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2739: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"2856
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2856: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"2861
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2861: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"2978
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 2978: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"3031
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3031: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"3084
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3084: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"3137
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3137: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"3213
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3213: __asm("ACTCON equ 039Bh");
+[; <" ACTCON equ 039Bh ;# ">
+"3260
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3260: __asm("PWM1DCL equ 0611h");
+[; <" PWM1DCL equ 0611h ;# ">
+"3296
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3296: __asm("PWM1DCH equ 0612h");
+[; <" PWM1DCH equ 0612h ;# ">
+"3366
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3366: __asm("PWM1CON equ 0613h");
+[; <" PWM1CON equ 0613h ;# ">
+"3371
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3371: __asm("PWM1CON0 equ 0613h");
+[; <" PWM1CON0 equ 0613h ;# ">
+"3442
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3442: __asm("PWM2DCL equ 0614h");
+[; <" PWM2DCL equ 0614h ;# ">
+"3478
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3478: __asm("PWM2DCH equ 0615h");
+[; <" PWM2DCH equ 0615h ;# ">
+"3548
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3548: __asm("PWM2CON equ 0616h");
+[; <" PWM2CON equ 0616h ;# ">
+"3553
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3553: __asm("PWM2CON0 equ 0616h");
+[; <" PWM2CON0 equ 0616h ;# ">
+"3624
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3624: __asm("UCON equ 0E8Eh");
+[; <" UCON equ 0E8Eh ;# ">
+"3675
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3675: __asm("USTAT equ 0E8Fh");
+[; <" USTAT equ 0E8Fh ;# ">
+"3735
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3735: __asm("UIR equ 0E90h");
+[; <" UIR equ 0E90h ;# ">
+"3791
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3791: __asm("UCFG equ 0E91h");
+[; <" UCFG equ 0E91h ;# ">
+"3845
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3845: __asm("UIE equ 0E92h");
+[; <" UIE equ 0E92h ;# ">
+"3901
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3901: __asm("UEIR equ 0E93h");
+[; <" UEIR equ 0E93h ;# ">
+"3952
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3952: __asm("UFRM equ 0E94h");
+[; <" UFRM equ 0E94h ;# ">
+"3959
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3959: __asm("UFRMH equ 0E94h");
+[; <" UFRMH equ 0E94h ;# ">
+"3991
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 3991: __asm("UFRML equ 0E95h");
+[; <" UFRML equ 0E95h ;# ">
+"4053
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4053: __asm("UADDR equ 0E96h");
+[; <" UADDR equ 0E96h ;# ">
+"4109
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4109: __asm("UEIE equ 0E97h");
+[; <" UEIE equ 0E97h ;# ">
+"4160
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4160: __asm("UEP0 equ 0E98h");
+[; <" UEP0 equ 0E98h ;# ">
+"4204
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4204: __asm("UEP1 equ 0E99h");
+[; <" UEP1 equ 0E99h ;# ">
+"4248
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4248: __asm("UEP2 equ 0E9Ah");
+[; <" UEP2 equ 0E9Ah ;# ">
+"4292
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4292: __asm("UEP3 equ 0E9Bh");
+[; <" UEP3 equ 0E9Bh ;# ">
+"4336
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4336: __asm("UEP4 equ 0E9Ch");
+[; <" UEP4 equ 0E9Ch ;# ">
+"4380
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4380: __asm("UEP5 equ 0E9Dh");
+[; <" UEP5 equ 0E9Dh ;# ">
+"4424
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4424: __asm("UEP6 equ 0E9Eh");
+[; <" UEP6 equ 0E9Eh ;# ">
+"4468
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4468: __asm("UEP7 equ 0E9Fh");
+[; <" UEP7 equ 0E9Fh ;# ">
+"4512
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4512: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"4544
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4544: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"4564
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4564: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"4584
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4584: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"4604
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4604: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"4624
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4624: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"4644
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4644: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"4664
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4664: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"4684
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4684: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"4704
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4704: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"4724
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1454.h: 4724: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"55 main.c
+[; ;main.c: 55: volatile uint8_t UART_RX_in = 0;
+[v _UART_RX_in `Vuc ~T0 @X0 1 e ]
+[i _UART_RX_in
+-> -> 0 `i `uc
+]
+"56
+[; ;main.c: 56: uint8_t breath_counter_for_smallVent = 0;
+[v _breath_counter_for_smallVent `uc ~T0 @X0 1 e ]
+[i _breath_counter_for_smallVent
+-> -> 0 `i `uc
+]
+[v $root$_INTERRUPT_InterruptManager `(v ~T0 @X0 0 e ]
+"63
+[; ;main.c: 63: void __attribute__((picinterrupt(("")))) INTERRUPT_InterruptManager (void)
+[v _INTERRUPT_InterruptManager `(v ~T1 @X0 1 ef ]
+"64
+[; ;main.c: 64: {
+{
+[e :U _INTERRUPT_InterruptManager ]
+[f ]
+"66
+[; ;main.c: 66:     if(INTCONbits.PEIE == 1)
+[e $ ! == -> . . _INTCONbits 0 6 `i -> 1 `i 264  ]
+"67
+[; ;main.c: 67:     {
+{
+"68
+[; ;main.c: 68:         if(PIE1bits.RCIE == 1 && EUSART_is_rx_ready())
+[e $ ! && == -> . . _PIE1bits 0 5 `i -> 1 `i != -> ( _EUSART_is_rx_ready ..  `i -> 0 `i 265  ]
+"69
+[; ;main.c: 69:         {
+{
+"70
+[; ;main.c: 70:             UART_RX_in = EUSART_Read();
+[e = _UART_RX_in ( _EUSART_Read ..  ]
+"71
+[; ;main.c: 71:             PIR1bits.RCIF = 0;
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"72
+[; ;main.c: 72:             Avthor_Uart_Instruction(UART_RX_in);
+[e ( _Avthor_Uart_Instruction (1 _UART_RX_in ]
+"73
+[; ;main.c: 73:         }
+}
+[e $U 266  ]
+"74
+[; ;main.c: 74:         else
+[e :U 265 ]
+"75
+[; ;main.c: 75:         {
+{
+"77
+[; ;main.c: 77:         }
+}
+[e :U 266 ]
+"78
+[; ;main.c: 78:     }
+}
+[e $U 267  ]
+"79
+[; ;main.c: 79:     else
+[e :U 264 ]
+"80
+[; ;main.c: 80:     {
+{
+"82
+[; ;main.c: 82:     }
+}
+[e :U 267 ]
+"83
+[; ;main.c: 83: }
+[e :UE 263 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"85
+[; ;main.c: 85: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"86
+[; ;main.c: 86: {
+{
+[e :U _main ]
+[f ]
+"88
+[; ;main.c: 88:     SYSTEM_Initialize();
+[e ( _SYSTEM_Initialize ..  ]
+"90
+[; ;main.c: 90:     initAvthorStates();
+[e ( _initAvthorStates ..  ]
+"92
+[; ;main.c: 92:     stepperSleep(1);
+[e ( _stepperSleep (1 -> -> 1 `i `a ]
+"95
+[; ;main.c: 95:     PIE1bits.RCIE = 1;
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"96
+[; ;main.c: 96:     PIR1bits.RCIF = 0;
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"102
+[; ;main.c: 102:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"105
+[; ;main.c: 105:     (INTCONbits.PEIE = 1);
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"113
+[; ;main.c: 113:     while (1)
+[e :U 270 ]
+"114
+[; ;main.c: 114:     {
+{
+"115
+[; ;main.c: 115:         switch(get_motor_action()){
+[e $U 273  ]
+{
+"117
+[; ;main.c: 117:             case topButtonTriggerAction: {
+[e :U 274 ]
+{
+"119
+[; ;main.c: 119:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"120
+[; ;main.c: 120:                 topButtonTrigger();
+[e ( _topButtonTrigger ..  ]
+"121
+[; ;main.c: 121:                 reset_motor_action();
+[e ( _reset_motor_action ..  ]
+"122
+[; ;main.c: 122:                 EUSART_Write(0xFE);
+[e ( _EUSART_Write (1 -> -> 254 `i `uc ]
+"123
+[; ;main.c: 123:                 break;
+[e $U 272  ]
+"124
+[; ;main.c: 124:             }case bottomButtonTriggerAction: {
+}
+[e :U 275 ]
+{
+"126
+[; ;main.c: 126:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"127
+[; ;main.c: 127:                 bottomButtonTrigger();
+[e ( _bottomButtonTrigger ..  ]
+"128
+[; ;main.c: 128:                 reset_motor_action();
+[e ( _reset_motor_action ..  ]
+"129
+[; ;main.c: 129:                 EUSART_Write(0xFE);
+[e ( _EUSART_Write (1 -> -> 254 `i `uc ]
+"130
+[; ;main.c: 130:                 break;
+[e $U 272  ]
+"131
+[; ;main.c: 131:             }case calibrating: {
+}
+[e :U 276 ]
+{
+"132
+[; ;main.c: 132:                 EUSART_Write(0xFA);
+[e ( _EUSART_Write (1 -> -> 250 `i `uc ]
+"133
+[; ;main.c: 133:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"134
+[; ;main.c: 134:                 calibrate();
+[e ( _calibrate ..  ]
+"135
+[; ;main.c: 135:                 reset_motor_action_if_matches(calibrating);
+[e ( _reset_motor_action_if_matches (1 . `E2212 2 ]
+"138
+[; ;main.c: 138:                 break;
+[e $U 272  ]
+"139
+[; ;main.c: 139:             }case moveUntilZUp: {
+}
+[e :U 277 ]
+{
+"140
+[; ;main.c: 140:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"141
+[; ;main.c: 141:                 moveUntilZ(UP);
+[e ( _moveUntilZ (1 -> . `E2177 0 `uc ]
+"142
+[; ;main.c: 142:                 reset_motor_action_if_matches(moveUntilZUp);
+[e ( _reset_motor_action_if_matches (1 . `E2212 9 ]
+"143
+[; ;main.c: 143:                 break;
+[e $U 272  ]
+"144
+[; ;main.c: 144:             }case moveUntilZDown: {
+}
+[e :U 278 ]
+{
+"145
+[; ;main.c: 145:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"146
+[; ;main.c: 146:                 moveUntilZ(DOWN);
+[e ( _moveUntilZ (1 -> . `E2177 1 `uc ]
+"147
+[; ;main.c: 147:                 reset_motor_action_if_matches(moveUntilZDown);
+[e ( _reset_motor_action_if_matches (1 . `E2212 10 ]
+"148
+[; ;main.c: 148:                 break;
+[e $U 272  ]
+"149
+[; ;main.c: 149:             }case slowStepTestAction: {
+}
+[e :U 279 ]
+{
+"150
+[; ;main.c: 150:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"151
+[; ;main.c: 151:                 slowStepTest();
+[e ( _slowStepTest ..  ]
+"152
+[; ;main.c: 152:                 reset_motor_action_if_matches(slowStepTestAction);
+[e ( _reset_motor_action_if_matches (1 . `E2212 8 ]
+"153
+[; ;main.c: 153:                 break;
+[e $U 272  ]
+"154
+[; ;main.c: 154:             }case inchUpAction: {
+}
+[e :U 280 ]
+{
+"155
+[; ;main.c: 155:                 EUSART_Write(0xFA);
+[e ( _EUSART_Write (1 -> -> 250 `i `uc ]
+"156
+[; ;main.c: 156:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"157
+[; ;main.c: 157:                 inchUp();
+[e ( _inchUp ..  ]
+"158
+[; ;main.c: 158:                 reset_motor_action_if_matches(inchUpAction);
+[e ( _reset_motor_action_if_matches (1 . `E2212 3 ]
+"159
+[; ;main.c: 159:                 EUSART_Write(0xFB);
+[e ( _EUSART_Write (1 -> -> 251 `i `uc ]
+"160
+[; ;main.c: 160:                 break;
+[e $U 272  ]
+"161
+[; ;main.c: 161:             }case inchDownAction: {
+}
+[e :U 281 ]
+{
+"162
+[; ;main.c: 162:                 EUSART_Write(0xFA);
+[e ( _EUSART_Write (1 -> -> 250 `i `uc ]
+"163
+[; ;main.c: 163:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"164
+[; ;main.c: 164:                 inchDown();
+[e ( _inchDown ..  ]
+"165
+[; ;main.c: 165:                 reset_motor_action_if_matches(inchDownAction);
+[e ( _reset_motor_action_if_matches (1 . `E2212 4 ]
+"166
+[; ;main.c: 166:                 EUSART_Write(0xFB);
+[e ( _EUSART_Write (1 -> -> 251 `i `uc ]
+"167
+[; ;main.c: 167:                 break;
+[e $U 272  ]
+"168
+[; ;main.c: 168:             }
+}
+"172
+[; ;main.c: 172:             case complexBreaths: {
+[e :U 282 ]
+{
+"173
+[; ;main.c: 173:                 set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"178
+[; ;main.c: 178:                 step_size step_size_in_1 = NullStep;
+[v _step_size_in_1 `E2181 ~T0 @X0 1 a ]
+[e = _step_size_in_1 . `E2181 5 ]
+"179
+[; ;main.c: 179:                 step_size step_size_in_2 = NullStep;
+[v _step_size_in_2 `E2181 ~T0 @X0 1 a ]
+[e = _step_size_in_2 . `E2181 5 ]
+"180
+[; ;main.c: 180:                 uint16_t steps_multiplier_1 = 0x0000;
+[v _steps_multiplier_1 `us ~T0 @X0 1 a ]
+[e = _steps_multiplier_1 -> -> 0 `i `us ]
+"181
+[; ;main.c: 181:                 uint16_t steps_multiplier_2 = 0x0000;
+[v _steps_multiplier_2 `us ~T0 @X0 1 a ]
+[e = _steps_multiplier_2 -> -> 0 `i `us ]
+"182
+[; ;main.c: 182:                 switch(get_complex_breaths_instructions_index(1)){
+[e $U 284  ]
+{
+"183
+[; ;main.c: 183:                     case 0:
+[e :U 285 ]
+"184
+[; ;main.c: 184:                     case '0': {
+[e :U 286 ]
+{
+"185
+[; ;main.c: 185:                         step_size_in_1 = NullStep;
+[e = _step_size_in_1 . `E2181 5 ]
+"186
+[; ;main.c: 186:                         steps_multiplier_1 = 16;
+[e = _steps_multiplier_1 -> -> 16 `i `us ]
+"187
+[; ;main.c: 187:                         break;
+[e $U 283  ]
+"188
+[; ;main.c: 188:                     }case 1:
+}
+[e :U 287 ]
+"189
+[; ;main.c: 189:                     case '1': {
+[e :U 288 ]
+{
+"190
+[; ;main.c: 190:                         step_size_in_1 = Full;
+[e = _step_size_in_1 . `E2181 0 ]
+"191
+[; ;main.c: 191:                         steps_multiplier_1 = 1;
+[e = _steps_multiplier_1 -> -> 1 `i `us ]
+"192
+[; ;main.c: 192:                         break;
+[e $U 283  ]
+"193
+[; ;main.c: 193:                     }case 2:
+}
+[e :U 289 ]
+"194
+[; ;main.c: 194:                     case '2': {
+[e :U 290 ]
+{
+"195
+[; ;main.c: 195:                         step_size_in_1 = Half;
+[e = _step_size_in_1 . `E2181 1 ]
+"196
+[; ;main.c: 196:                         steps_multiplier_1 = 2;
+[e = _steps_multiplier_1 -> -> 2 `i `us ]
+"197
+[; ;main.c: 197:                         break;
+[e $U 283  ]
+"198
+[; ;main.c: 198:                     }case 4:
+}
+[e :U 291 ]
+"199
+[; ;main.c: 199:                     case '4': {
+[e :U 292 ]
+{
+"200
+[; ;main.c: 200:                         step_size_in_1 = Quarter;
+[e = _step_size_in_1 . `E2181 2 ]
+"201
+[; ;main.c: 201:                         steps_multiplier_1 = 4;
+[e = _steps_multiplier_1 -> -> 4 `i `us ]
+"202
+[; ;main.c: 202:                         break;
+[e $U 283  ]
+"203
+[; ;main.c: 203:                     }case 8:
+}
+[e :U 293 ]
+"204
+[; ;main.c: 204:                     case '8': {
+[e :U 294 ]
+{
+"205
+[; ;main.c: 205:                         step_size_in_1 = Eighth;
+[e = _step_size_in_1 . `E2181 3 ]
+"206
+[; ;main.c: 206:                         steps_multiplier_1 = 8;
+[e = _steps_multiplier_1 -> -> 8 `i `us ]
+"207
+[; ;main.c: 207:                         break;
+[e $U 283  ]
+"208
+[; ;main.c: 208:                     }case 16: {
+}
+[e :U 295 ]
+{
+"209
+[; ;main.c: 209:                         step_size_in_1 = Sixteenth;
+[e = _step_size_in_1 . `E2181 4 ]
+"210
+[; ;main.c: 210:                         steps_multiplier_1 = 16;
+[e = _steps_multiplier_1 -> -> 16 `i `us ]
+"211
+[; ;main.c: 211:                         break;
+[e $U 283  ]
+"212
+[; ;main.c: 212:                     }default: {
+}
+[e :U 296 ]
+{
+"214
+[; ;main.c: 214:                         step_size_in_1 = NullStep;
+[e = _step_size_in_1 . `E2181 5 ]
+"215
+[; ;main.c: 215:                         steps_multiplier_1 = 16;
+[e = _steps_multiplier_1 -> -> 16 `i `us ]
+"216
+[; ;main.c: 216:                         break;
+[e $U 283  ]
+"217
+[; ;main.c: 217:                     }
+}
+"218
+[; ;main.c: 218:                 }
+}
+[e $U 283  ]
+[e :U 284 ]
+[e [\ -> ( _get_complex_breaths_instructions_index (1 -> -> 1 `i `uc `i , $ -> 0 `i 285
+ , $ -> -> 48 `ui `i 286
+ , $ -> 1 `i 287
+ , $ -> -> 49 `ui `i 288
+ , $ -> 2 `i 289
+ , $ -> -> 50 `ui `i 290
+ , $ -> 4 `i 291
+ , $ -> -> 52 `ui `i 292
+ , $ -> 8 `i 293
+ , $ -> -> 56 `ui `i 294
+ , $ -> 16 `i 295
+ 296 ]
+[e :U 283 ]
+"219
+[; ;main.c: 219:                 switch(get_complex_breaths_instructions_index(3)){
+[e $U 298  ]
+{
+"220
+[; ;main.c: 220:                     case 0:
+[e :U 299 ]
+"221
+[; ;main.c: 221:                     case '0': {
+[e :U 300 ]
+{
+"222
+[; ;main.c: 222:                         step_size_in_2 = NullStep;
+[e = _step_size_in_2 . `E2181 5 ]
+"223
+[; ;main.c: 223:                         steps_multiplier_2 = 16;
+[e = _steps_multiplier_2 -> -> 16 `i `us ]
+"224
+[; ;main.c: 224:                         break;
+[e $U 297  ]
+"225
+[; ;main.c: 225:                     }case 1:
+}
+[e :U 301 ]
+"226
+[; ;main.c: 226:                     case '1': {
+[e :U 302 ]
+{
+"227
+[; ;main.c: 227:                         step_size_in_2 = Full;
+[e = _step_size_in_2 . `E2181 0 ]
+"228
+[; ;main.c: 228:                         steps_multiplier_2 = 1;
+[e = _steps_multiplier_2 -> -> 1 `i `us ]
+"229
+[; ;main.c: 229:                         break;
+[e $U 297  ]
+"230
+[; ;main.c: 230:                     }case 2:
+}
+[e :U 303 ]
+"231
+[; ;main.c: 231:                     case '2': {
+[e :U 304 ]
+{
+"232
+[; ;main.c: 232:                         step_size_in_2 = Half;
+[e = _step_size_in_2 . `E2181 1 ]
+"233
+[; ;main.c: 233:                         steps_multiplier_2 = 2;
+[e = _steps_multiplier_2 -> -> 2 `i `us ]
+"234
+[; ;main.c: 234:                         break;
+[e $U 297  ]
+"235
+[; ;main.c: 235:                     }case 4:
+}
+[e :U 305 ]
+"236
+[; ;main.c: 236:                     case '4': {
+[e :U 306 ]
+{
+"237
+[; ;main.c: 237:                         step_size_in_2 = Quarter;
+[e = _step_size_in_2 . `E2181 2 ]
+"238
+[; ;main.c: 238:                         steps_multiplier_2 = 4;
+[e = _steps_multiplier_2 -> -> 4 `i `us ]
+"239
+[; ;main.c: 239:                         break;
+[e $U 297  ]
+"240
+[; ;main.c: 240:                     }case 8:
+}
+[e :U 307 ]
+"241
+[; ;main.c: 241:                     case '8': {
+[e :U 308 ]
+{
+"242
+[; ;main.c: 242:                         step_size_in_2 = Eighth;
+[e = _step_size_in_2 . `E2181 3 ]
+"243
+[; ;main.c: 243:                         steps_multiplier_2 = 8;
+[e = _steps_multiplier_2 -> -> 8 `i `us ]
+"244
+[; ;main.c: 244:                         break;
+[e $U 297  ]
+"245
+[; ;main.c: 245:                     }case 16: {
+}
+[e :U 309 ]
+{
+"246
+[; ;main.c: 246:                         step_size_in_2 = Sixteenth;
+[e = _step_size_in_2 . `E2181 4 ]
+"247
+[; ;main.c: 247:                         steps_multiplier_2 = 16;
+[e = _steps_multiplier_2 -> -> 16 `i `us ]
+"248
+[; ;main.c: 248:                         break;
+[e $U 297  ]
+"249
+[; ;main.c: 249:                     }default: {
+}
+[e :U 310 ]
+{
+"251
+[; ;main.c: 251:                         step_size_in_2 = NullStep;
+[e = _step_size_in_2 . `E2181 5 ]
+"252
+[; ;main.c: 252:                         steps_multiplier_2 = 16;
+[e = _steps_multiplier_2 -> -> 16 `i `us ]
+"253
+[; ;main.c: 253:                         break;
+[e $U 297  ]
+"254
+[; ;main.c: 254:                     }
+}
+"255
+[; ;main.c: 255:                 }
+}
+[e $U 297  ]
+[e :U 298 ]
+[e [\ -> ( _get_complex_breaths_instructions_index (1 -> -> 3 `i `uc `i , $ -> 0 `i 299
+ , $ -> -> 48 `ui `i 300
+ , $ -> 1 `i 301
+ , $ -> -> 49 `ui `i 302
+ , $ -> 2 `i 303
+ , $ -> -> 50 `ui `i 304
+ , $ -> 4 `i 305
+ , $ -> -> 52 `ui `i 306
+ , $ -> 8 `i 307
+ , $ -> -> 56 `ui `i 308
+ , $ -> 16 `i 309
+ 310 ]
+[e :U 297 ]
+"258
+[; ;main.c: 258:                 uint16_t numSteps1 = ((uint16_t)get_complex_breaths_instructions_index(2)*(uint16_t)steps_multiplier_1*(uint16_t)get_complex_breaths_instructions_index(0));
+[v _numSteps1 `us ~T0 @X0 1 a ]
+[e = _numSteps1 -> * * -> -> ( _get_complex_breaths_instructions_index (1 -> -> 2 `i `uc `us `ui -> _steps_multiplier_1 `ui -> -> ( _get_complex_breaths_instructions_index (1 -> -> 0 `i `uc `us `ui `us ]
+"259
+[; ;main.c: 259:                 uint16_t numSteps2 = ((uint16_t)get_complex_breaths_instructions_index(4)*(uint16_t)steps_multiplier_2*(uint16_t)get_complex_breaths_instructions_index(0));
+[v _numSteps2 `us ~T0 @X0 1 a ]
+[e = _numSteps2 -> * * -> -> ( _get_complex_breaths_instructions_index (1 -> -> 4 `i `uc `us `ui -> _steps_multiplier_2 `ui -> -> ( _get_complex_breaths_instructions_index (1 -> -> 0 `i `uc `us `ui `us ]
+"260
+[; ;main.c: 260:                 Step(UP, numSteps1, step_size_in_1, numSteps2, step_size_in_2, 1);
+[e ( _Step (4 , , , , , . `E2177 0 _numSteps1 _step_size_in_1 _numSteps2 _step_size_in_2 -> -> 1 `i `a ]
+"263
+[; ;main.c: 263:                 _delay((unsigned long)((15)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"264
+[; ;main.c: 264:                 Step(DOWN, numSteps2, step_size_in_2, numSteps1, step_size_in_1, 1);
+[e ( _Step (4 , , , , , . `E2177 1 _numSteps2 _step_size_in_2 _numSteps1 _step_size_in_1 -> -> 1 `i `a ]
+"267
+[; ;main.c: 267:                 _delay((unsigned long)((5)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"269
+[; ;main.c: 269:                 if((breath_counter_for_smallVent++ == 10) && get_bellowsHasBeenInchedUpOrDownSinceVenting() == 0){
+[e $ ! && == -> ++ _breath_counter_for_smallVent -> -> 1 `i `uc `i -> 10 `i == -> ( _get_bellowsHasBeenInchedUpOrDownSinceVenting ..  `i -> 0 `i 311  ]
+{
+"274
+[; ;main.c: 274:                     breath_counter_for_smallVent = 0;
+[e = _breath_counter_for_smallVent -> -> 0 `i `uc ]
+"275
+[; ;main.c: 275:                     smallVent();
+[e ( _smallVent ..  ]
+"276
+[; ;main.c: 276:                 }
+}
+[e :U 311 ]
+"277
+[; ;main.c: 277:                 break;
+[e $U 272  ]
+"278
+[; ;main.c: 278:             }case stepperInstruction: {
+}
+[e :U 312 ]
+{
+"279
+[; ;main.c: 279:                 if(get_stepper_instruction() != 0){
+[e $ ! != -> ( _get_stepper_instruction ..  `i -> 0 `i 313  ]
+{
+"280
+[; ;main.c: 280:                     basicStepperInstruction(get_stepper_instruction());
+[e ( _basicStepperInstruction (1 -> ( _get_stepper_instruction ..  `uc ]
+"283
+[; ;main.c: 283:                     if((breath_counter_for_smallVent++ == 10) && get_bellowsHasBeenInchedUpOrDownSinceVenting() == 0){
+[e $ ! && == -> ++ _breath_counter_for_smallVent -> -> 1 `i `uc `i -> 10 `i == -> ( _get_bellowsHasBeenInchedUpOrDownSinceVenting ..  `i -> 0 `i 314  ]
+{
+"288
+[; ;main.c: 288:                         breath_counter_for_smallVent = 0;
+[e = _breath_counter_for_smallVent -> -> 0 `i `uc ]
+"289
+[; ;main.c: 289:                         smallVent();
+[e ( _smallVent ..  ]
+"290
+[; ;main.c: 290:                     }
+}
+[e :U 314 ]
+"291
+[; ;main.c: 291:                 }
+}
+[e :U 313 ]
+"292
+[; ;main.c: 292:                 break;
+[e $U 272  ]
+"293
+[; ;main.c: 293:             }default: {
+}
+[e :U 315 ]
+{
+"294
+[; ;main.c: 294:                 break;
+[e $U 272  ]
+"295
+[; ;main.c: 295:             }
+}
+"296
+[; ;main.c: 296:         }
+}
+[e $U 272  ]
+[e :U 273 ]
+[e [\ -> ( _get_motor_action ..  `ui , $ -> . `E2212 5 `ui 274
+ , $ -> . `E2212 6 `ui 275
+ , $ -> . `E2212 2 `ui 276
+ , $ -> . `E2212 9 `ui 277
+ , $ -> . `E2212 10 `ui 278
+ , $ -> . `E2212 8 `ui 279
+ , $ -> . `E2212 3 `ui 280
+ , $ -> . `E2212 4 `ui 281
+ , $ -> . `E2212 1 `ui 282
+ , $ -> . `E2212 7 `ui 312
+ 315 ]
+[e :U 272 ]
+"297
+[; ;main.c: 297:     }
+}
+[e :U 269 ]
+[e $U 270  ]
+[e :U 271 ]
+"298
+[; ;main.c: 298: }
+[e :UE 268 ]
+}
+"300
+[; ;main.c: 300: void smallVent(void){
+[v _smallVent `(v ~T0 @X0 1 ef ]
+{
+[e :U _smallVent ]
+[f ]
+"302
+[; ;main.c: 302:     EUSART_Write(0xF9);
+[e ( _EUSART_Write (1 -> -> 249 `i `uc ]
+"314
+[; ;main.c: 314: }
+[e :UE 316 ]
+}
+"316
+[; ;main.c: 316: void basicStepperInstruction(char charIn){
+[v _basicStepperInstruction `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _basicStepperInstruction ]
+[v _charIn `uc ~T0 @X0 1 r1 ]
+[f ]
+"317
+[; ;main.c: 317:     set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"318
+[; ;main.c: 318:     char numRotations = 0;
+[v _numRotations `uc ~T0 @X0 1 a ]
+[e = _numRotations -> -> 0 `i `uc ]
+"319
+[; ;main.c: 319:     step_size stepSize1 = NullStep;
+[v _stepSize1 `E2181 ~T0 @X0 1 a ]
+[e = _stepSize1 . `E2181 5 ]
+"320
+[; ;main.c: 320:     step_size stepSize2 = NullStep;
+[v _stepSize2 `E2181 ~T0 @X0 1 a ]
+[e = _stepSize2 . `E2181 5 ]
+"321
+[; ;main.c: 321:     uint8_t stepMultiplier1 = 0;
+[v _stepMultiplier1 `uc ~T0 @X0 1 a ]
+[e = _stepMultiplier1 -> -> 0 `i `uc ]
+"322
+[; ;main.c: 322:     uint8_t stepMultiplier2 = 0;
+[v _stepMultiplier2 `uc ~T0 @X0 1 a ]
+[e = _stepMultiplier2 -> -> 0 `i `uc ]
+"323
+[; ;main.c: 323:  switch(charIn){
+[e $U 319  ]
+{
+"326
+[; ;main.c: 326:   case 's': {
+[e :U 320 ]
+{
+"329
+[; ;main.c: 329:             numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"330
+[; ;main.c: 330:             stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"331
+[; ;main.c: 331:             stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"332
+[; ;main.c: 332:             stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"333
+[; ;main.c: 333:             stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"340
+[; ;main.c: 340:    break;
+[e $U 318  ]
+"341
+[; ;main.c: 341:   }case 't': {
+}
+[e :U 321 ]
+{
+"344
+[; ;main.c: 344:             numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"345
+[; ;main.c: 345:             stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"346
+[; ;main.c: 346:             stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"347
+[; ;main.c: 347:             stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"348
+[; ;main.c: 348:             stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"353
+[; ;main.c: 353:    break;
+[e $U 318  ]
+"354
+[; ;main.c: 354:   }case 'u': {
+}
+[e :U 322 ]
+{
+"357
+[; ;main.c: 357:             numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"358
+[; ;main.c: 358:             stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"359
+[; ;main.c: 359:             stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"360
+[; ;main.c: 360:             stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"361
+[; ;main.c: 361:             stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"368
+[; ;main.c: 368:    break;
+[e $U 318  ]
+"369
+[; ;main.c: 369:   }case 'v': {
+}
+[e :U 323 ]
+{
+"372
+[; ;main.c: 372:             numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"373
+[; ;main.c: 373:             stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"374
+[; ;main.c: 374:             stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"375
+[; ;main.c: 375:             stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"376
+[; ;main.c: 376:             stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"381
+[; ;main.c: 381:    break;
+[e $U 318  ]
+"382
+[; ;main.c: 382:   }case 'w': {
+}
+[e :U 324 ]
+{
+"385
+[; ;main.c: 385:             numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"386
+[; ;main.c: 386:             stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"387
+[; ;main.c: 387:             stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"388
+[; ;main.c: 388:             stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"389
+[; ;main.c: 389:             stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"394
+[; ;main.c: 394:    break;
+[e $U 318  ]
+"395
+[; ;main.c: 395:   }case 0xB0: {
+}
+[e :U 325 ]
+{
+"398
+[; ;main.c: 398:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"399
+[; ;main.c: 399:    stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"400
+[; ;main.c: 400:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"401
+[; ;main.c: 401:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"402
+[; ;main.c: 402:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"403
+[; ;main.c: 403:    break;
+[e $U 318  ]
+"404
+[; ;main.c: 404:   }case 0xB1: {
+}
+[e :U 326 ]
+{
+"407
+[; ;main.c: 407:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"408
+[; ;main.c: 408:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"409
+[; ;main.c: 409:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"410
+[; ;main.c: 410:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"411
+[; ;main.c: 411:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"412
+[; ;main.c: 412:    break;
+[e $U 318  ]
+"413
+[; ;main.c: 413:   }case 0xB2: {
+}
+[e :U 327 ]
+{
+"416
+[; ;main.c: 416:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"417
+[; ;main.c: 417:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"418
+[; ;main.c: 418:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"419
+[; ;main.c: 419:    stepSize2 = Eighth;
+[e = _stepSize2 . `E2181 3 ]
+"420
+[; ;main.c: 420:    stepMultiplier2 = 8;
+[e = _stepMultiplier2 -> -> 8 `i `uc ]
+"421
+[; ;main.c: 421:    break;
+[e $U 318  ]
+"422
+[; ;main.c: 422:   }case 0xB3: {
+}
+[e :U 328 ]
+{
+"425
+[; ;main.c: 425:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"426
+[; ;main.c: 426:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"427
+[; ;main.c: 427:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"428
+[; ;main.c: 428:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"429
+[; ;main.c: 429:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"430
+[; ;main.c: 430:    break;
+[e $U 318  ]
+"431
+[; ;main.c: 431:   }case 0xB4: {
+}
+[e :U 329 ]
+{
+"434
+[; ;main.c: 434:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"435
+[; ;main.c: 435:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"436
+[; ;main.c: 436:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"437
+[; ;main.c: 437:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"438
+[; ;main.c: 438:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"439
+[; ;main.c: 439:    break;
+[e $U 318  ]
+"440
+[; ;main.c: 440:   }case 0xB5: {
+}
+[e :U 330 ]
+{
+"443
+[; ;main.c: 443:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"444
+[; ;main.c: 444:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"445
+[; ;main.c: 445:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"446
+[; ;main.c: 446:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"447
+[; ;main.c: 447:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"448
+[; ;main.c: 448:    break;
+[e $U 318  ]
+"449
+[; ;main.c: 449:   }case 0xB6: {
+}
+[e :U 331 ]
+{
+"452
+[; ;main.c: 452:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"453
+[; ;main.c: 453:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"454
+[; ;main.c: 454:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"455
+[; ;main.c: 455:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"456
+[; ;main.c: 456:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"457
+[; ;main.c: 457:    break;
+[e $U 318  ]
+"458
+[; ;main.c: 458:   }case 0xB7: {
+}
+[e :U 332 ]
+{
+"461
+[; ;main.c: 461:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"462
+[; ;main.c: 462:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"463
+[; ;main.c: 463:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"464
+[; ;main.c: 464:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"465
+[; ;main.c: 465:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"466
+[; ;main.c: 466:    break;
+[e $U 318  ]
+"467
+[; ;main.c: 467:   }case 0xB8: {
+}
+[e :U 333 ]
+{
+"470
+[; ;main.c: 470:    numRotations = 1;
+[e = _numRotations -> -> 1 `i `uc ]
+"471
+[; ;main.c: 471:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"472
+[; ;main.c: 472:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"473
+[; ;main.c: 473:    stepSize2 = Full;
+[e = _stepSize2 . `E2181 0 ]
+"474
+[; ;main.c: 474:    stepMultiplier2 = 1;
+[e = _stepMultiplier2 -> -> 1 `i `uc ]
+"475
+[; ;main.c: 475:    break;
+[e $U 318  ]
+"476
+[; ;main.c: 476:   }case 0xB9: {
+}
+[e :U 334 ]
+{
+"479
+[; ;main.c: 479:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"480
+[; ;main.c: 480:    stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"481
+[; ;main.c: 481:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"482
+[; ;main.c: 482:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"483
+[; ;main.c: 483:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"484
+[; ;main.c: 484:    break;
+[e $U 318  ]
+"485
+[; ;main.c: 485:   }case 0xBA: {
+}
+[e :U 335 ]
+{
+"488
+[; ;main.c: 488:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"489
+[; ;main.c: 489:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"490
+[; ;main.c: 490:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"491
+[; ;main.c: 491:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"492
+[; ;main.c: 492:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"493
+[; ;main.c: 493:    break;
+[e $U 318  ]
+"494
+[; ;main.c: 494:   }case 0xBB: {
+}
+[e :U 336 ]
+{
+"497
+[; ;main.c: 497:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"498
+[; ;main.c: 498:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"499
+[; ;main.c: 499:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"500
+[; ;main.c: 500:    stepSize2 = Eighth;
+[e = _stepSize2 . `E2181 3 ]
+"501
+[; ;main.c: 501:    stepMultiplier2 = 8;
+[e = _stepMultiplier2 -> -> 8 `i `uc ]
+"502
+[; ;main.c: 502:    break;
+[e $U 318  ]
+"503
+[; ;main.c: 503:   }case 0xBC: {
+}
+[e :U 337 ]
+{
+"506
+[; ;main.c: 506:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"507
+[; ;main.c: 507:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"508
+[; ;main.c: 508:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"509
+[; ;main.c: 509:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"510
+[; ;main.c: 510:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"511
+[; ;main.c: 511:    break;
+[e $U 318  ]
+"512
+[; ;main.c: 512:   }case 0xBD: {
+}
+[e :U 338 ]
+{
+"515
+[; ;main.c: 515:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"516
+[; ;main.c: 516:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"517
+[; ;main.c: 517:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"518
+[; ;main.c: 518:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"519
+[; ;main.c: 519:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"520
+[; ;main.c: 520:    break;
+[e $U 318  ]
+"521
+[; ;main.c: 521:   }case 0xBE: {
+}
+[e :U 339 ]
+{
+"524
+[; ;main.c: 524:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"525
+[; ;main.c: 525:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"526
+[; ;main.c: 526:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"527
+[; ;main.c: 527:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"528
+[; ;main.c: 528:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"529
+[; ;main.c: 529:    break;
+[e $U 318  ]
+"530
+[; ;main.c: 530:   }case 0xBF: {
+}
+[e :U 340 ]
+{
+"533
+[; ;main.c: 533:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"534
+[; ;main.c: 534:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"535
+[; ;main.c: 535:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"536
+[; ;main.c: 536:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"537
+[; ;main.c: 537:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"538
+[; ;main.c: 538:    break;
+[e $U 318  ]
+"539
+[; ;main.c: 539:   }case 0xC0: {
+}
+[e :U 341 ]
+{
+"542
+[; ;main.c: 542:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"543
+[; ;main.c: 543:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"544
+[; ;main.c: 544:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"545
+[; ;main.c: 545:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"546
+[; ;main.c: 546:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"547
+[; ;main.c: 547:    break;
+[e $U 318  ]
+"548
+[; ;main.c: 548:   }case 0xC1: {
+}
+[e :U 342 ]
+{
+"551
+[; ;main.c: 551:    numRotations = 2;
+[e = _numRotations -> -> 2 `i `uc ]
+"552
+[; ;main.c: 552:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"553
+[; ;main.c: 553:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"554
+[; ;main.c: 554:    stepSize2 = Full;
+[e = _stepSize2 . `E2181 0 ]
+"555
+[; ;main.c: 555:    stepMultiplier2 = 1;
+[e = _stepMultiplier2 -> -> 1 `i `uc ]
+"556
+[; ;main.c: 556:    break;
+[e $U 318  ]
+"557
+[; ;main.c: 557:   }case 0xC2: {
+}
+[e :U 343 ]
+{
+"560
+[; ;main.c: 560:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"561
+[; ;main.c: 561:    stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"562
+[; ;main.c: 562:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"563
+[; ;main.c: 563:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"564
+[; ;main.c: 564:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"565
+[; ;main.c: 565:    break;
+[e $U 318  ]
+"566
+[; ;main.c: 566:   }case 0xC3: {
+}
+[e :U 344 ]
+{
+"569
+[; ;main.c: 569:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"570
+[; ;main.c: 570:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"571
+[; ;main.c: 571:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"572
+[; ;main.c: 572:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"573
+[; ;main.c: 573:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"574
+[; ;main.c: 574:    break;
+[e $U 318  ]
+"575
+[; ;main.c: 575:   }case 0xC4: {
+}
+[e :U 345 ]
+{
+"578
+[; ;main.c: 578:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"579
+[; ;main.c: 579:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"580
+[; ;main.c: 580:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"581
+[; ;main.c: 581:    stepSize2 = Eighth;
+[e = _stepSize2 . `E2181 3 ]
+"582
+[; ;main.c: 582:    stepMultiplier2 = 8;
+[e = _stepMultiplier2 -> -> 8 `i `uc ]
+"583
+[; ;main.c: 583:    break;
+[e $U 318  ]
+"584
+[; ;main.c: 584:   }case 0xC5: {
+}
+[e :U 346 ]
+{
+"587
+[; ;main.c: 587:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"588
+[; ;main.c: 588:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"589
+[; ;main.c: 589:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"590
+[; ;main.c: 590:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"591
+[; ;main.c: 591:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"592
+[; ;main.c: 592:    break;
+[e $U 318  ]
+"593
+[; ;main.c: 593:   }case 0xC6: {
+}
+[e :U 347 ]
+{
+"596
+[; ;main.c: 596:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"597
+[; ;main.c: 597:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"598
+[; ;main.c: 598:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"599
+[; ;main.c: 599:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"600
+[; ;main.c: 600:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"601
+[; ;main.c: 601:    break;
+[e $U 318  ]
+"602
+[; ;main.c: 602:   }case 0xC7: {
+}
+[e :U 348 ]
+{
+"605
+[; ;main.c: 605:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"606
+[; ;main.c: 606:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"607
+[; ;main.c: 607:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"608
+[; ;main.c: 608:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"609
+[; ;main.c: 609:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"610
+[; ;main.c: 610:    break;
+[e $U 318  ]
+"611
+[; ;main.c: 611:   }case 0xC8: {
+}
+[e :U 349 ]
+{
+"614
+[; ;main.c: 614:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"615
+[; ;main.c: 615:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"616
+[; ;main.c: 616:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"617
+[; ;main.c: 617:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"618
+[; ;main.c: 618:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"619
+[; ;main.c: 619:    break;
+[e $U 318  ]
+"620
+[; ;main.c: 620:   }case 0xC9: {
+}
+[e :U 350 ]
+{
+"623
+[; ;main.c: 623:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"624
+[; ;main.c: 624:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"625
+[; ;main.c: 625:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"626
+[; ;main.c: 626:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"627
+[; ;main.c: 627:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"628
+[; ;main.c: 628:    break;
+[e $U 318  ]
+"629
+[; ;main.c: 629:   }case 0xCA: {
+}
+[e :U 351 ]
+{
+"632
+[; ;main.c: 632:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"633
+[; ;main.c: 633:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"634
+[; ;main.c: 634:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"635
+[; ;main.c: 635:    stepSize2 = Full;
+[e = _stepSize2 . `E2181 0 ]
+"636
+[; ;main.c: 636:    stepMultiplier2 = 1;
+[e = _stepMultiplier2 -> -> 1 `i `uc ]
+"637
+[; ;main.c: 637:    break;
+[e $U 318  ]
+"638
+[; ;main.c: 638:   }case 0xCB: {
+}
+[e :U 352 ]
+{
+"641
+[; ;main.c: 641:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"642
+[; ;main.c: 642:    stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"643
+[; ;main.c: 643:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"644
+[; ;main.c: 644:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"645
+[; ;main.c: 645:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"646
+[; ;main.c: 646:    break;
+[e $U 318  ]
+"647
+[; ;main.c: 647:   }case 0xCC: {
+}
+[e :U 353 ]
+{
+"650
+[; ;main.c: 650:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"651
+[; ;main.c: 651:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"652
+[; ;main.c: 652:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"653
+[; ;main.c: 653:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"654
+[; ;main.c: 654:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"655
+[; ;main.c: 655:    break;
+[e $U 318  ]
+"656
+[; ;main.c: 656:   }case 0xCD: {
+}
+[e :U 354 ]
+{
+"659
+[; ;main.c: 659:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"660
+[; ;main.c: 660:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"661
+[; ;main.c: 661:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"662
+[; ;main.c: 662:    stepSize2 = Eighth;
+[e = _stepSize2 . `E2181 3 ]
+"663
+[; ;main.c: 663:    stepMultiplier2 = 8;
+[e = _stepMultiplier2 -> -> 8 `i `uc ]
+"664
+[; ;main.c: 664:    break;
+[e $U 318  ]
+"665
+[; ;main.c: 665:   }case 0xCE: {
+}
+[e :U 355 ]
+{
+"668
+[; ;main.c: 668:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"669
+[; ;main.c: 669:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"670
+[; ;main.c: 670:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"671
+[; ;main.c: 671:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"672
+[; ;main.c: 672:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"673
+[; ;main.c: 673:    break;
+[e $U 318  ]
+"674
+[; ;main.c: 674:   }case 0xCF: {
+}
+[e :U 356 ]
+{
+"677
+[; ;main.c: 677:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"678
+[; ;main.c: 678:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"679
+[; ;main.c: 679:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"680
+[; ;main.c: 680:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"681
+[; ;main.c: 681:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"682
+[; ;main.c: 682:    break;
+[e $U 318  ]
+"683
+[; ;main.c: 683:   }case 0xD0: {
+}
+[e :U 357 ]
+{
+"686
+[; ;main.c: 686:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"687
+[; ;main.c: 687:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"688
+[; ;main.c: 688:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"689
+[; ;main.c: 689:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"690
+[; ;main.c: 690:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"691
+[; ;main.c: 691:    break;
+[e $U 318  ]
+"692
+[; ;main.c: 692:   }case 0xD1: {
+}
+[e :U 358 ]
+{
+"695
+[; ;main.c: 695:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"696
+[; ;main.c: 696:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"697
+[; ;main.c: 697:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"698
+[; ;main.c: 698:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"699
+[; ;main.c: 699:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"700
+[; ;main.c: 700:    break;
+[e $U 318  ]
+"701
+[; ;main.c: 701:   }case 0xD2: {
+}
+[e :U 359 ]
+{
+"704
+[; ;main.c: 704:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"705
+[; ;main.c: 705:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"706
+[; ;main.c: 706:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"707
+[; ;main.c: 707:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"708
+[; ;main.c: 708:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"709
+[; ;main.c: 709:    break;
+[e $U 318  ]
+"710
+[; ;main.c: 710:   }case 0xD3: {
+}
+[e :U 360 ]
+{
+"713
+[; ;main.c: 713:    numRotations = 4;
+[e = _numRotations -> -> 4 `i `uc ]
+"714
+[; ;main.c: 714:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"715
+[; ;main.c: 715:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"716
+[; ;main.c: 716:    stepSize2 = Full;
+[e = _stepSize2 . `E2181 0 ]
+"717
+[; ;main.c: 717:    stepMultiplier2 = 1;
+[e = _stepMultiplier2 -> -> 1 `i `uc ]
+"718
+[; ;main.c: 718:    break;
+[e $U 318  ]
+"719
+[; ;main.c: 719:   }case 0xD4: {
+}
+[e :U 361 ]
+{
+"722
+[; ;main.c: 722:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"723
+[; ;main.c: 723:    stepSize1 = Sixteenth;
+[e = _stepSize1 . `E2181 4 ]
+"724
+[; ;main.c: 724:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"725
+[; ;main.c: 725:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"726
+[; ;main.c: 726:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"727
+[; ;main.c: 727:    break;
+[e $U 318  ]
+"728
+[; ;main.c: 728:   }case 0xD5: {
+}
+[e :U 362 ]
+{
+"731
+[; ;main.c: 731:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"732
+[; ;main.c: 732:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"733
+[; ;main.c: 733:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"734
+[; ;main.c: 734:    stepSize2 = Sixteenth;
+[e = _stepSize2 . `E2181 4 ]
+"735
+[; ;main.c: 735:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"736
+[; ;main.c: 736:    break;
+[e $U 318  ]
+"737
+[; ;main.c: 737:   }case 0xD6: {
+}
+[e :U 363 ]
+{
+"740
+[; ;main.c: 740:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"741
+[; ;main.c: 741:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"742
+[; ;main.c: 742:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"743
+[; ;main.c: 743:    stepSize2 = Eighth;
+[e = _stepSize2 . `E2181 3 ]
+"744
+[; ;main.c: 744:    stepMultiplier2 = 8;
+[e = _stepMultiplier2 -> -> 8 `i `uc ]
+"745
+[; ;main.c: 745:    break;
+[e $U 318  ]
+"746
+[; ;main.c: 746:   }case 0xD7: {
+}
+[e :U 364 ]
+{
+"749
+[; ;main.c: 749:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"750
+[; ;main.c: 750:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"751
+[; ;main.c: 751:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"752
+[; ;main.c: 752:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"753
+[; ;main.c: 753:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"754
+[; ;main.c: 754:    break;
+[e $U 318  ]
+"755
+[; ;main.c: 755:   }case 0xD8: {
+}
+[e :U 365 ]
+{
+"758
+[; ;main.c: 758:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"759
+[; ;main.c: 759:    stepSize1 = Quarter;
+[e = _stepSize1 . `E2181 2 ]
+"760
+[; ;main.c: 760:    stepMultiplier1 = 4;
+[e = _stepMultiplier1 -> -> 4 `i `uc ]
+"761
+[; ;main.c: 761:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"762
+[; ;main.c: 762:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"763
+[; ;main.c: 763:    break;
+[e $U 318  ]
+"764
+[; ;main.c: 764:   }case 0xD9: {
+}
+[e :U 366 ]
+{
+"767
+[; ;main.c: 767:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"768
+[; ;main.c: 768:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"769
+[; ;main.c: 769:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"770
+[; ;main.c: 770:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"771
+[; ;main.c: 771:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"772
+[; ;main.c: 772:    break;
+[e $U 318  ]
+"773
+[; ;main.c: 773:   }case 0xDA: {
+}
+[e :U 367 ]
+{
+"776
+[; ;main.c: 776:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"777
+[; ;main.c: 777:    stepSize1 = Half;
+[e = _stepSize1 . `E2181 1 ]
+"778
+[; ;main.c: 778:    stepMultiplier1 = 2;
+[e = _stepMultiplier1 -> -> 2 `i `uc ]
+"779
+[; ;main.c: 779:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"780
+[; ;main.c: 780:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"781
+[; ;main.c: 781:    break;
+[e $U 318  ]
+"782
+[; ;main.c: 782:   }case 0xDB: {
+}
+[e :U 368 ]
+{
+"785
+[; ;main.c: 785:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"786
+[; ;main.c: 786:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"787
+[; ;main.c: 787:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"788
+[; ;main.c: 788:    stepSize2 = Half;
+[e = _stepSize2 . `E2181 1 ]
+"789
+[; ;main.c: 789:    stepMultiplier2 = 2;
+[e = _stepMultiplier2 -> -> 2 `i `uc ]
+"790
+[; ;main.c: 790:    break;
+[e $U 318  ]
+"791
+[; ;main.c: 791:   }case 0xDC: {
+}
+[e :U 369 ]
+{
+"794
+[; ;main.c: 794:    numRotations = 5;
+[e = _numRotations -> -> 5 `i `uc ]
+"795
+[; ;main.c: 795:    stepSize1 = Full;
+[e = _stepSize1 . `E2181 0 ]
+"796
+[; ;main.c: 796:    stepMultiplier1 = 1;
+[e = _stepMultiplier1 -> -> 1 `i `uc ]
+"797
+[; ;main.c: 797:    stepSize2 = Full;
+[e = _stepSize2 . `E2181 0 ]
+"798
+[; ;main.c: 798:    stepMultiplier2 = 1;
+[e = _stepMultiplier2 -> -> 1 `i `uc ]
+"799
+[; ;main.c: 799:    break;
+[e $U 318  ]
+"800
+[; ;main.c: 800:   }default: {
+}
+[e :U 370 ]
+{
+"801
+[; ;main.c: 801:    break;
+[e $U 318  ]
+"802
+[; ;main.c: 802:   }
+}
+"803
+[; ;main.c: 803:  }
+}
+[e $U 318  ]
+[e :U 319 ]
+[e [\ -> _charIn `i , $ -> -> 115 `ui `i 320
+ , $ -> -> 116 `ui `i 321
+ , $ -> -> 117 `ui `i 322
+ , $ -> -> 118 `ui `i 323
+ , $ -> -> 119 `ui `i 324
+ , $ -> 176 `i 325
+ , $ -> 177 `i 326
+ , $ -> 178 `i 327
+ , $ -> 179 `i 328
+ , $ -> 180 `i 329
+ , $ -> 181 `i 330
+ , $ -> 182 `i 331
+ , $ -> 183 `i 332
+ , $ -> 184 `i 333
+ , $ -> 185 `i 334
+ , $ -> 186 `i 335
+ , $ -> 187 `i 336
+ , $ -> 188 `i 337
+ , $ -> 189 `i 338
+ , $ -> 190 `i 339
+ , $ -> 191 `i 340
+ , $ -> 192 `i 341
+ , $ -> 193 `i 342
+ , $ -> 194 `i 343
+ , $ -> 195 `i 344
+ , $ -> 196 `i 345
+ , $ -> 197 `i 346
+ , $ -> 198 `i 347
+ , $ -> 199 `i 348
+ , $ -> 200 `i 349
+ , $ -> 201 `i 350
+ , $ -> 202 `i 351
+ , $ -> 203 `i 352
+ , $ -> 204 `i 353
+ , $ -> 205 `i 354
+ , $ -> 206 `i 355
+ , $ -> 207 `i 356
+ , $ -> 208 `i 357
+ , $ -> 209 `i 358
+ , $ -> 210 `i 359
+ , $ -> 211 `i 360
+ , $ -> 212 `i 361
+ , $ -> 213 `i 362
+ , $ -> 214 `i 363
+ , $ -> 215 `i 364
+ , $ -> 216 `i 365
+ , $ -> 217 `i 366
+ , $ -> 218 `i 367
+ , $ -> 219 `i 368
+ , $ -> 220 `i 369
+ 370 ]
+[e :U 318 ]
+"806
+[; ;main.c: 806:     _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"809
+[; ;main.c: 809:     Step(UP, (numRotations*stepMultiplier1*200/2), stepSize1, (numRotations*stepMultiplier2*200/2), stepSize2, 1);
+[e ( _Step (4 , , , , , . `E2177 0 -> / * * -> _numRotations `i -> _stepMultiplier1 `i -> 200 `i -> 2 `i `us _stepSize1 -> / * * -> _numRotations `i -> _stepMultiplier2 `i -> 200 `i -> 2 `i `us _stepSize2 -> -> 1 `i `a ]
+"812
+[; ;main.c: 812:     _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"813
+[; ;main.c: 813:     Step(DOWN, (numRotations*stepMultiplier2*200/2), stepSize2, (numRotations*stepMultiplier1*200/2), stepSize1, 1);
+[e ( _Step (4 , , , , , . `E2177 1 -> / * * -> _numRotations `i -> _stepMultiplier2 `i -> 200 `i -> 2 `i `us _stepSize2 -> / * * -> _numRotations `i -> _stepMultiplier1 `i -> 200 `i -> 2 `i `us _stepSize1 -> -> 1 `i `a ]
+"816
+[; ;main.c: 816:     _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"819
+[; ;main.c: 819:     _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"821
+[; ;main.c: 821: }
+[e :UE 317 ]
+}
+"823
+[; ;main.c: 823: void eighthsTest(char charIn){
+[v _eighthsTest `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _eighthsTest ]
+[v _charIn `uc ~T0 @X0 1 r1 ]
+[f ]
+"824
+[; ;main.c: 824:     set_INTERRUPT_BREAK_FLAG(0);
+[e ( _set_INTERRUPT_BREAK_FLAG (1 -> -> 0 `i `a ]
+"825
+[; ;main.c: 825:     char numRotations = 0;
+[v _numRotations `uc ~T0 @X0 1 a ]
+[e = _numRotations -> -> 0 `i `uc ]
+"826
+[; ;main.c: 826:     step_size stepSize1 = NullStep;
+[v _stepSize1 `E2181 ~T0 @X0 1 a ]
+[e = _stepSize1 . `E2181 5 ]
+"827
+[; ;main.c: 827:     step_size stepSize2 = NullStep;
+[v _stepSize2 `E2181 ~T0 @X0 1 a ]
+[e = _stepSize2 . `E2181 5 ]
+"828
+[; ;main.c: 828:     uint8_t stepMultiplier1 = 0;
+[v _stepMultiplier1 `uc ~T0 @X0 1 a ]
+[e = _stepMultiplier1 -> -> 0 `i `uc ]
+"829
+[; ;main.c: 829:     uint8_t stepMultiplier2 = 0;
+[v _stepMultiplier2 `uc ~T0 @X0 1 a ]
+[e = _stepMultiplier2 -> -> 0 `i `uc ]
+"830
+[; ;main.c: 830:     uint8_t ratio1 = 0;
+[v _ratio1 `uc ~T0 @X0 1 a ]
+[e = _ratio1 -> -> 0 `i `uc ]
+"831
+[; ;main.c: 831:     uint8_t ratio2 = 0;
+[v _ratio2 `uc ~T0 @X0 1 a ]
+[e = _ratio2 -> -> 0 `i `uc ]
+"832
+[; ;main.c: 832:     switch(charIn){
+[e $U 373  ]
+{
+"833
+[; ;main.c: 833:         case 0xDD: {
+[e :U 374 ]
+{
+"836
+[; ;main.c: 836:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"837
+[; ;main.c: 837:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"838
+[; ;main.c: 838:    ratio1 = 200;
+[e = _ratio1 -> -> 200 `i `uc ]
+"839
+[; ;main.c: 839:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"840
+[; ;main.c: 840:    ratio2 = 0;
+[e = _ratio2 -> -> 0 `i `uc ]
+"841
+[; ;main.c: 841:    stepSize2 = NullStep;
+[e = _stepSize2 . `E2181 5 ]
+"842
+[; ;main.c: 842:    stepMultiplier2 = 16;
+[e = _stepMultiplier2 -> -> 16 `i `uc ]
+"843
+[; ;main.c: 843:    break;
+[e $U 372  ]
+"844
+[; ;main.c: 844:   }case 0xDE: {
+}
+[e :U 375 ]
+{
+"847
+[; ;main.c: 847:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"848
+[; ;main.c: 848:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"849
+[; ;main.c: 849:    ratio1 = 175;
+[e = _ratio1 -> -> 175 `i `uc ]
+"850
+[; ;main.c: 850:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"851
+[; ;main.c: 851:    ratio2 = 25;
+[e = _ratio2 -> -> 25 `i `uc ]
+"852
+[; ;main.c: 852:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"853
+[; ;main.c: 853:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"854
+[; ;main.c: 854:    break;
+[e $U 372  ]
+"855
+[; ;main.c: 855:   }case 0xDF: {
+}
+[e :U 376 ]
+{
+"858
+[; ;main.c: 858:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"859
+[; ;main.c: 859:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"860
+[; ;main.c: 860:    ratio1 = 150;
+[e = _ratio1 -> -> 150 `i `uc ]
+"861
+[; ;main.c: 861:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"862
+[; ;main.c: 862:    ratio2 = 50;
+[e = _ratio2 -> -> 50 `i `uc ]
+"863
+[; ;main.c: 863:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"864
+[; ;main.c: 864:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"865
+[; ;main.c: 865:    break;
+[e $U 372  ]
+"866
+[; ;main.c: 866:   }case 0xE0: {
+}
+[e :U 377 ]
+{
+"869
+[; ;main.c: 869:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"870
+[; ;main.c: 870:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"871
+[; ;main.c: 871:    ratio1 = 125;
+[e = _ratio1 -> -> 125 `i `uc ]
+"872
+[; ;main.c: 872:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"873
+[; ;main.c: 873:    ratio2 = 75;
+[e = _ratio2 -> -> 75 `i `uc ]
+"874
+[; ;main.c: 874:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"875
+[; ;main.c: 875:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"876
+[; ;main.c: 876:    break;
+[e $U 372  ]
+"877
+[; ;main.c: 877:   }case 0xE1: {
+}
+[e :U 378 ]
+{
+"880
+[; ;main.c: 880:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"881
+[; ;main.c: 881:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"882
+[; ;main.c: 882:    ratio1 = 100;
+[e = _ratio1 -> -> 100 `i `uc ]
+"883
+[; ;main.c: 883:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"884
+[; ;main.c: 884:    ratio2 = 100;
+[e = _ratio2 -> -> 100 `i `uc ]
+"885
+[; ;main.c: 885:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"886
+[; ;main.c: 886:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"887
+[; ;main.c: 887:    break;
+[e $U 372  ]
+"888
+[; ;main.c: 888:   }case 0xE2: {
+}
+[e :U 379 ]
+{
+"891
+[; ;main.c: 891:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"892
+[; ;main.c: 892:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"893
+[; ;main.c: 893:    ratio1 = 75;
+[e = _ratio1 -> -> 75 `i `uc ]
+"894
+[; ;main.c: 894:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"895
+[; ;main.c: 895:    ratio2 = 125;
+[e = _ratio2 -> -> 125 `i `uc ]
+"896
+[; ;main.c: 896:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"897
+[; ;main.c: 897:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"898
+[; ;main.c: 898:    break;
+[e $U 372  ]
+"899
+[; ;main.c: 899:   }case 0xE3: {
+}
+[e :U 380 ]
+{
+"902
+[; ;main.c: 902:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"903
+[; ;main.c: 903:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"904
+[; ;main.c: 904:    ratio1 = 50;
+[e = _ratio1 -> -> 50 `i `uc ]
+"905
+[; ;main.c: 905:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"906
+[; ;main.c: 906:    ratio2 = 150;
+[e = _ratio2 -> -> 150 `i `uc ]
+"907
+[; ;main.c: 907:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"908
+[; ;main.c: 908:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"909
+[; ;main.c: 909:    break;
+[e $U 372  ]
+"910
+[; ;main.c: 910:   }case 0xE4: {
+}
+[e :U 381 ]
+{
+"913
+[; ;main.c: 913:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"914
+[; ;main.c: 914:    stepSize1 = Eighth;
+[e = _stepSize1 . `E2181 3 ]
+"915
+[; ;main.c: 915:    ratio1 = 25;
+[e = _ratio1 -> -> 25 `i `uc ]
+"916
+[; ;main.c: 916:    stepMultiplier1 = 8;
+[e = _stepMultiplier1 -> -> 8 `i `uc ]
+"917
+[; ;main.c: 917:    ratio2 = 175;
+[e = _ratio2 -> -> 175 `i `uc ]
+"918
+[; ;main.c: 918:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"919
+[; ;main.c: 919:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"920
+[; ;main.c: 920:    break;
+[e $U 372  ]
+"921
+[; ;main.c: 921:   }case 0xE5: {
+}
+[e :U 382 ]
+{
+"924
+[; ;main.c: 924:    numRotations = 3;
+[e = _numRotations -> -> 3 `i `uc ]
+"925
+[; ;main.c: 925:    stepSize1 = NullStep;
+[e = _stepSize1 . `E2181 5 ]
+"926
+[; ;main.c: 926:    ratio1 = 0;
+[e = _ratio1 -> -> 0 `i `uc ]
+"927
+[; ;main.c: 927:    stepMultiplier1 = 16;
+[e = _stepMultiplier1 -> -> 16 `i `uc ]
+"928
+[; ;main.c: 928:    ratio2 = 200;
+[e = _ratio2 -> -> 200 `i `uc ]
+"929
+[; ;main.c: 929:    stepSize2 = Quarter;
+[e = _stepSize2 . `E2181 2 ]
+"930
+[; ;main.c: 930:    stepMultiplier2 = 4;
+[e = _stepMultiplier2 -> -> 4 `i `uc ]
+"931
+[; ;main.c: 931:    break;
+[e $U 372  ]
+"932
+[; ;main.c: 932:   }default: {
+}
+[e :U 383 ]
+{
+"933
+[; ;main.c: 933:    break;
+[e $U 372  ]
+"934
+[; ;main.c: 934:   }
+}
+"935
+[; ;main.c: 935:  }
+}
+[e $U 372  ]
+[e :U 373 ]
+[e [\ -> _charIn `i , $ -> 221 `i 374
+ , $ -> 222 `i 375
+ , $ -> 223 `i 376
+ , $ -> 224 `i 377
+ , $ -> 225 `i 378
+ , $ -> 226 `i 379
+ , $ -> 227 `i 380
+ , $ -> 228 `i 381
+ , $ -> 229 `i 382
+ 383 ]
+[e :U 372 ]
+"938
+[; ;main.c: 938:  _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"941
+[; ;main.c: 941:     Step(UP, (numRotations*stepMultiplier1*ratio1), stepSize1, (numRotations*stepMultiplier2*ratio2), stepSize2, 1);
+[e ( _Step (4 , , , , , . `E2177 0 -> * * -> _numRotations `i -> _stepMultiplier1 `i -> _ratio1 `i `us _stepSize1 -> * * -> _numRotations `i -> _stepMultiplier2 `i -> _ratio2 `i `us _stepSize2 -> -> 1 `i `a ]
+"944
+[; ;main.c: 944:  _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"945
+[; ;main.c: 945:     Step(DOWN, (numRotations*stepMultiplier2*ratio2), stepSize2, (numRotations*stepMultiplier1*ratio1), stepSize1, 1);
+[e ( _Step (4 , , , , , . `E2177 1 -> * * -> _numRotations `i -> _stepMultiplier2 `i -> _ratio2 `i `us _stepSize2 -> * * -> _numRotations `i -> _stepMultiplier1 `i -> _ratio1 `i `us _stepSize1 -> -> 1 `i `a ]
+"948
+[; ;main.c: 948:  _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"951
+[; ;main.c: 951:  _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"953
+[; ;main.c: 953: }
+[e :UE 371 ]
+}
