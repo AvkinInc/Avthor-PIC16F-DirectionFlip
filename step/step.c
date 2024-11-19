@@ -235,7 +235,7 @@ void setStepSize(step_size size){
 }
 
 void setDirection(direction dir){
-    if(dir == UP){
+    if(dir == UP){ //these bits can be flipped as necessary in order to achieve correct directions when the system is connected
         //CCW
         DIR_SetHigh();
     }else { //if(dir == DOWN){
